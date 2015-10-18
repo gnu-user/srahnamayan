@@ -295,10 +295,10 @@ iframe {
   color: #5f6b77;
 }
 /* Work Section */
-.experience .item {
+.experience .item, .aside .item {
   margin-bottom: 30px;
 }
-.experience .item .title {
+.experience .item .title, .aside .item .title {
   font-size: 16px;
   margin-top: 0;
   margin-bottom: 5px;
