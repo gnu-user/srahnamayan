@@ -348,6 +348,13 @@ iframe {
 .info .fa.fa-envelope-o {
   font-size: 14px;
 }
+/* Fontawesome padding */
+i.fa.pad-sm {
+  margin-right: 10px;
+}
+i.fa.pad-lg {
+  margin-right: 20px;
+}
 .info ul {
   margin-bottom: 0;
 }
