@@ -204,6 +204,9 @@ iframe {
   font-size: 18px;
   margin-top: 0;
 }
+.latest .item .title.title-pub {
+  margin-bottom: 25px;
+}
 .latest .item .title .label {
   margin-left: 5px;
   font-size: 12px;
