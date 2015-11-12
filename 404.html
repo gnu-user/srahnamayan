@@ -39,6 +39,12 @@
     
     <!-- Theme CSS -->  
     <link id="theme-style" rel="stylesheet" href="assets/css/styles.css">
+    <!-- Custom CSS for page -->
+    <style type="text/css">
+        html, body {
+            height: 90%;
+        }
+    </style>
     <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
     <!--[if lt IE 9]>
       <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
@@ -94,7 +100,7 @@
         </div><!--/.container -->
     </nav>
     
-    <div class="container sections-wrapper">
+    <div class="container sections-wrapper fill">
         <div class="row">
             <div class="primary col-md-8 col-md-offset-2 col-sm-12 col-xs-12">
                 <!-- 404 ERROR -->
@@ -106,8 +112,7 @@
                         <footer id="author"></footer>
                     </blockquote>
                 </div>
-            </div><!--//primary-->
-  
+            </div>
         </div><!--//row-->
     </div><!--//masonry-->
     
@@ -177,7 +182,40 @@
                 "author": "Charles Darwin"},
 
                 {"quote": "The most exciting phrase to hear in science, the one that heralds new discoveries, is not Eureka! (I found it!) but That's funny...", 
-                "author": "Isaac Asimov"}];
+                "author": "Isaac Asimov"},
+
+                {"quote": "Somewhere, something incredible is waiting to be known.",
+                "author": "Carl Sagan"},
+
+                {"quote": "One, remember to look up at the stars and not down at your feet. Two, never give up work. Work gives you meaning and purpose and life is empty without it. Three, if you are lucky enough to find love, remember it is there and don't throw it away.",
+                "author": "Stephen Hawking"},
+
+                {"quote": "An expert is a person who has made all the mistakes that can be made in a very narrow field.",
+                "author": "Niels Bohr"},
+
+                {"quote": "A man who dares to waste one hour of time has not discovered the value of life.",
+                "author": "Charles Darwin"},
+
+                {"quote": "Nothing in life is to be feared, it is only to be understood. Now is the time to understand more, so that we may fear less.",
+                "author": "Marie Curie"},
+
+                {"quote": "The good thing about science is that it's true whether or not you believe in it.",
+                "author": "Neil deGrasse Tyson"},
+
+                {"quote": "The opposite of a correct statement is a false statement. But the opposite of a profound truth may well be another profound truth.",
+                "author": "Niels Bohr"},
+
+                {"quote": "I do not know what I may appear to the world, but to myself I seem to have been only like a boy playing on the sea-shore, and diverting myself in now and then finding a smoother pebble or a prettier shell than ordinary, whilst the great ocean of truth lay all undiscovered before me.",
+                "author": "Isaac Newton"},
+
+                {"quote": "But remember this, Japanese boy... airplanes are not tools for war. They are not for making money. Airplanes are beautiful dreams. Engineers turn dreams into reality.",
+                "author": "Hayao Miyazaki"},
+
+                {"quote": "C is quirky, flawed, and an enormous success.",
+                "author": "Dennis M. Ritchie"},
+
+                {"quote": "A mathematician is a device for turning coffee into theorems",
+                "author": "Paul Erdős"}];
             //calculate a random index number
             idx = Math.floor(Math.random() * quotes.length);
             //display the quotation
