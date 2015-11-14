@@ -174,7 +174,16 @@ iframe {
   color: #333;
 }
 .navbar-default .dropdown-menu>li>a:hover {
-  background-color: #e7e7e7;
+  background-color: #d8d8d8;
+}
+.navbar-default .navbar-nav>.active>a {
+  background-color: #d8d8d8;
+}
+.navbar-default .navbar-nav li {
+  font-size: 18px;
+}
+.navbar-default .navbar-nav ul.dropdown-menu li {
+  font-size: 16px;
 }
 /* ===== Jumbotron ===== */
 .jumbotron {
