@@ -199,6 +199,11 @@ iframe {
     min-height: 100%;
     height: 100%;
 }
+/* ===== Gallery ===== */
+.gallery .row>a {
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
 /* ======= Sections======= */
 .sections-wrapper {
   padding-top: 60px;
