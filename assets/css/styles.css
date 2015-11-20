@@ -201,8 +201,7 @@ iframe {
 }
 /* ===== Gallery ===== */
 .gallery .row>a {
-  padding-top: 15px;
-  padding-bottom: 15px;
+  padding: 10px;
 }
 /* ======= Sections======= */
 .sections-wrapper {
