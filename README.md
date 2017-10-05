@@ -5,4 +5,4 @@ The personal website of Shahryar Rahnamayan BSc, MSc, PhD (Waterloo), PEng, SMIE
 
 ## Copyright
 
-Copyright 2015 Shahryar Rahnamayan. All Rights Reserved.
+Copyright 2017 Shahryar Rahnamayan. All Rights Reserved.
